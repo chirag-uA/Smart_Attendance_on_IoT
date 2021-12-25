@@ -5,8 +5,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 SoftwareSerial mySerial(D3, D4);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
-const char* ssid     = "Router2";   //replace with your own SSID
-const char* password = "basicpass";    //replace with your own password
+//const char* ssid     = "Router2";   //replace with your own SSID
+//const char* password = "basicpass";    //replace with your own password
+const char* ssid = "Singhal_Family_1";
+const char* password = "xyzzyspoon!";
 const char* host = "api.pushingbox.com";
 
 String member = "";
